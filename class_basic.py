@@ -27,3 +27,5 @@ class Dog(Animal):
 jon = Dog()
 jon.color = 'white'
 jon.name = 'Jon Snow'
+
+print(jon.age)
