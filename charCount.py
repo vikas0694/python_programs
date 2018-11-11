@@ -1,6 +1,6 @@
 # characterCount
 
-message = 'hello this is vikas , and I am from bangalore.'
+message = "hello this is vikas , and I am from bangalore."
 count = {}
 
 for character in message:
