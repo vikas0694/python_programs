@@ -1,5 +1,4 @@
 # Coin Toss
-
 import random
 
 guess = ''
