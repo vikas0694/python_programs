@@ -10,7 +10,7 @@ toss  = random.randint(0, 1)  # 0 is tails, 1 is heads
 if toss == guess:
     print('You got it!') 
 else:
-    print('Nope! Guess again!')
+    print('Nope! Guess again!') 
     guess = int(input()) 
     if toss == guess:
         print('You got it!')
