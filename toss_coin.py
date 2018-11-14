@@ -8,7 +8,7 @@ while guess not in (int(1), int(0)):
 
 toss  = random.randint(0, 1)  # 0 is tails, 1 is heads
 if toss == guess:
-    print('You got it!')
+    print('You got it!') 
 else:
     print('Nope! Guess again!')
     guess = int(input()) 
