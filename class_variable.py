@@ -5,7 +5,7 @@ class Laptop:
     discount_percent = 10
 
     def __init__(self, brand, model_name, price):
-        # instance variables
+        # instance variables 
         self.brand = brand
         self.name = model_name
         self.price = price
