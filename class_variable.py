@@ -22,4 +22,4 @@ laptop2 = Laptop('apple', 'macbook pro', 23000)
 laptop2.discount_percent = 10
 print(laptop2.__dict__)
 print(laptop2.apply_discount())
-print(laptop1.apply_discount())
+print(laptop1.apply_discount()) 
