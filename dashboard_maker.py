@@ -12,7 +12,7 @@ def begin():
         begin()
  
     line1 = []
-    line2 = [] 
+    line2 = []  
 
     for a in range(int(dem)):
         line1.append(' --- ')
