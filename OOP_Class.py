@@ -12,7 +12,7 @@ class Animal():
 
 dog = Animal()
 dog.make_noise()
-dog.size = "small"
+dog.size = "small" 
 dog.color = "black"
 dog.hair = "hairless"
 
