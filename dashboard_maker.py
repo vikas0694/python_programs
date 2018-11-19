@@ -10,7 +10,7 @@ def begin():
     except ValueError:
         print('Must be a positive number')
         begin()
-
+ 
     line1 = []
     line2 = []
 
