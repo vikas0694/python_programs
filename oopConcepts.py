@@ -14,7 +14,7 @@ class Phone:
     def make_a_call(self, phone_number):
         print(f"calling {phone_number} ...")
 
-    def full_name(self): 
+    def full_name(self):  
         return f"{self.brand} {self.model_name}"
 
     def send_mesaage(self):
