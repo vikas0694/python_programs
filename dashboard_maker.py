@@ -11,7 +11,7 @@ def begin():
         print('Must be a positive number')   
         begin()
  
-    line1 = [] 
+    line1 = []  
     line2 = []   
 
     for a in range(int(dem)):
