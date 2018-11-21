@@ -4,7 +4,7 @@
 # Name Mangling , __name (not a convention)
 
 
-class Phone:
+class Phone: 
     def __init__(self, brand, model_name, price):
         self.brand = brand
         self.model_name = model_name
