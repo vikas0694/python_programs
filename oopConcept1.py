@@ -9,7 +9,7 @@ class Human:
         if self.occupation == " tennis player":
             print(self.name + " plays tennis")
         elif self.occupation == " actor":
-            print (self.name + " shoots film")
+            print (self.name + " shoots film") 
 
     def speaks(self):
         #defining the method of the class
