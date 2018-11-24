@@ -6,7 +6,7 @@ def begin():
             print("Must be a number")
             begin()
         else:
-            pass 
+            pass  
     except ValueError:
         print('Must be a positive number')   
         begin()
