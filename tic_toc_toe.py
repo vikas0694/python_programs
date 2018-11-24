@@ -12,7 +12,7 @@ def printBoard(board):
 def checkWin(board):
     #All Horizontal
     if board['top-L']=='X' and board['top-M']=='X' and board['top-R']=='X': 
-        winner='X' 
+        winner='X'  
     elif board['top-L']=='O' and board['top-M']=='O' and board['top-R']=='O':
         winner='O'
         
