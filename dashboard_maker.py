@@ -8,7 +8,7 @@ def begin():
         else:
             pass  
     except ValueError:
-        print('Must be a positive number')   
+        print('Must be a positive number')    
         begin()
  
     line1 = []  
