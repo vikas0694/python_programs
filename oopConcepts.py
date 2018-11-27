@@ -3,7 +3,6 @@
 # Some special naming convention
 # Name Mangling , __name (not a convention)
 
-
 class Phone: 
     def __init__(self, brand, model_name, price):
         self.brand = brand
