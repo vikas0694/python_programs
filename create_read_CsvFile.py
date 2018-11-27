@@ -13,20 +13,20 @@ import csv
 print("file created")
 
 
-# to read csv file
+## to read csv file
 
-# import csv
-# with open(r"C:\Users\vikas\Desktop\new1.csv","r") as csvfile:
-#     reader = csv.DictReader(csvfile)
-#     for row in reader:
-#         print(row['Grade'],row['first_name'],row['last_name'])
+import csv
+with open(r"C:\Users\vikas\Desktop\new1.csv","r") as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        print(row['Grade'],row['first_name'],row['last_name'])
 
 
-# next(filereader) -> to remove file collum name
+next(filereader) -> to remove file collum name
 
 # to remove   csv file
 
-# import os
-# os.remove(r"enter path here")
+import os
+os.remove(r"enter path here")
 
 
