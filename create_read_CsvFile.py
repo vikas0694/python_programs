@@ -1,5 +1,6 @@
 # create a csv files
 
+
 import csv
 
 with open(r"C:\Users\vikas\Desktop\new1.csv","w") as csvfile:
@@ -13,6 +14,7 @@ with open(r"C:\Users\vikas\Desktop\new1.csv","w") as csvfile:
                        {'Grade': 'A', 'first_name': 'Babu', 'last_name': 'Lal'}])
 
 print("file created")
+
 
 
 # to read csv file
@@ -31,5 +33,3 @@ with open(r"C:\Users\vikas\Desktop\new1.csv","r") as csvfile:
 
 import os
 os.remove(r"enter path here")
-
-
