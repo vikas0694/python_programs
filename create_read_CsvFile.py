@@ -1,4 +1,5 @@
-# csv files
+# create a csv files
+
 import csv
 
 with open(r"C:\Users\vikas\Desktop\new1.csv","w") as csvfile:
