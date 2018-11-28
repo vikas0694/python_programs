@@ -13,7 +13,7 @@ import csv
 print("file created")
 
 
-## to read csv file
+##to read csv file
 
 import csv
 with open(r"C:\Users\vikas\Desktop\new1.csv","r") as csvfile:
@@ -24,7 +24,7 @@ with open(r"C:\Users\vikas\Desktop\new1.csv","r") as csvfile:
 
 next(filereader) -> to remove file collum name
 
-## to remove   csv file
+# to remove   csv file
 
 import os
 os.remove(r"enter path here")
