@@ -1,6 +1,7 @@
 # csv files
 import csv
- with open(r"C:\Users\vikas\Desktop\new1.csv","w") as csvfile:
+
+with open(r"C:\Users\vikas\Desktop\new1.csv","w") as csvfile:
      fieldnamessage = ['Grade','first_name','last_name']
      writer = csv.DictWriter(csvfile,fieldnames = fieldnamessage)
      writer.writeheader()
@@ -13,16 +14,17 @@ import csv
 print("file created")
 
 
-##to read csv file
+# to read csv file
 
 import csv
+
 with open(r"C:\Users\vikas\Desktop\new1.csv","r") as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         print(row['Grade'],row['first_name'],row['last_name'])
 
 
-next(filereader) -> to remove file collum name
+# next(filereader) -> to remove file collum name
 
 # to remove   csv file
 
