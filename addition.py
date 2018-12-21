@@ -23,4 +23,4 @@ for i in name:
     char.setdefault(i, 0)
     char[i] = char[i] + 1
 
-print(char)
+print(char) 
