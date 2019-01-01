@@ -5,7 +5,7 @@
 # c = a//10
 # print(c)
 # d = c%10
-# print(d)
+# print(d) 
 
 # e = c//10
 # print(e)
