@@ -23,7 +23,7 @@ print(user_info)
 popped_item = user_info.pop('age')
 print(type(popped_item))
 print(user_info)
-add and delete data
-how to add data
-user_info['fav_songs'] = ['song1', 'song2']
-print(user_info)
+# add and delete data
+# how to add data
+# user_info['fav_songs'] = ['song1', 'song2']
+# print(user_info)
